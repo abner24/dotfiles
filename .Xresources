@@ -1,0 +1,26 @@
+! Transparencia
+! 100%: FF - 95%: F2 - 90%: E6 - 85%: D9 - 80%: CC - 75%: BF - 70%: B3 - 65%: A6 - 60%: 99 - 55%: 8C - 50%: 80 - 45%: 73 - 40%: 66 - 35%: 59 - 30%: 4D - 25%: 40 - 20%: 33 - 15%: 26 - 10%: 1A - 5%: 0D - 0%: 00
+!
+#include ".colors/seoul256"
+
+URxvt.font: 		xft:SourceCodePro:size=11
+!URxvt.font: 		xft:Inconsolata:size=12
+
+!URxvt*transparent:      true
+URxvt*depth:		32
+URxvt*dynamicColors:    on
+URxvt.internalBorder:   3
+URxvt.externalBorder:   0
+URxvt.borderLess:       false
+URxvt.jumpScroll:       true
+URxvt.cursorBlink:      true
+URxvt.loginShell:       false
+URxvt.perl-ext-common:  default,matcher,searchable-scrollback
+URxvt.pointerBlank:     true
+URxvt.saveLines:        4000
+URxvt.secondaryScroll:  true
+URxvt.scrollBar:        false
+URxvt.scrollBar_right:  false
+URxvt.scrollTtyKeypress: true
+URxvt.scrollWithBuffer: true
+URxvt*urlLauncher: /usr/bin/firefox
